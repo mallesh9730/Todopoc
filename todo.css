@@ -1,0 +1,110 @@
+
+
+*
+{
+  margin:0px;
+  padding: 0px;
+}
+
+.Todo-title h3 {
+  text-align: center;
+  background: black;
+  height: 60px;
+  color: #ffff;
+  padding-top: 33px;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input#addTask {
+  width: 505px;
+  position: relative;
+  height: 53px;
+  font-size: 16px;
+  border: 1px solid lightgrey;
+}
+
+.btn-add button {
+  position: relative;
+  top: 12px;
+  width: 101px;
+  height: 35px;
+  border: navajowhite;
+  background: black;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+}
+li {
+  position: absolute;
+  top: 258px;
+  
+}
+li.check-list {
+  position: relative;
+  left: 75px;
+  list-style: none;
+  width: 1177px;
+  top: 70px;
+  font-size: 20px;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.complete {
+  position: absolute;
+  top: 13px;
+  left: 596px;
+  font-size: 15px;
+}
+i#deleteTask {
+  position: relative;
+  top: -8px;
+  left: 417px;
+  font-size: 19px;
+}
+input#toggleCourseStatus {
+  width: 100px;
+  height: 21px;
+  position: relative;
+  top: 15px;
+}
+.input-body {
+  margin: 100px 0px 0px 400px;
+}
+input[type="text"]::placeholder {  
+                  
+  padding-left: 15px; 
+  font-weight:700;
+} 
+#text {
+  position: absolute;
+  top: 31px;
+  left: 239px;
+  font-size: 15px;
+}
+input{
+  outline: none;
+}
+
+input {
+
+
+  text-indent: 5px;
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+}
+input[type=text]:hover{
+  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+input[type=text]:focus {
+  box-shadow: 0 0 5pt 2pt #D3D3D3;
+  outline-width: 0px;
+}
+
+.fa-trash:before {
+  color: black;
+}
